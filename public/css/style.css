@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(255,960,463)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23F5F5F5'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: #1e73be;
+}
+#Formas-de-Trabajo{
+    background-color: #1e73be;
+
+}
+.accordionCard {
+    display: inline-block;
+    width: 60px;
+    height: 120px;
+    overflow: hidden;
+    transition: width 0.5s ease;
+    background-color: #f9f9f9;
+    align-items: center;
+
+}
+
+.accordionCard:hover {
+    width: 100%;
+}
+
+.accordionCard:hover div {
+    display: block !important;
+}
+
+.accordionCard .d-none {
+    display: none;
+}
+
+
+.accordionVertical:not(:hover) .accordionCard:first-of-type {
+    width: 100%;
+}
+.accordionVertical:not(:hover) .accordionCard:first-of-type div {
+    display: block !important;
+}
+
+
+.h0{
+    font-size: 6vh;
+}
+
+.method{
+    background-color: #2492f1;
+    border: solid 1px #f9f9f9;
+    padding: 10px;
+    color: #f9f9f9;
+    transition: all 0.25s;
+}
+
+.method:hover{
+    transform: translateY(-20px);
+    background-color: #2c9bfd;
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+}
+
+.img-Mehtod{
+    max-height: 250px;
+    max-width: 150px;
+}
+.accordionCard-green{
+    background-color: #04168e;
+}
+.accordionCard-pink{
+    background-color: #2845ff;
+
+}
+
+.img-shadow{
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+}
+
+.btn-login{
+    border: none;
+    color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    background-color: rgb(0, 0, 0,0);
+    transition: all  0.3s;
+}
+.btn-login:hover{
+    color: #0fff9f;
+    border-color: #0fff9f;
+}
+
+.img-rounded{
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.btn-green{
+    color: rgb(46, 45, 45) !important;
+    background-color: #0fff9f !important;
+    border: none !important;
+    transition: background-color 0.2s;
+}
+.btn-green:hover{
+    background-color: #00df86 !important;
+}
+
+.bg-glass{
+
+    background-color: #1e73be26;
+    backdrop-filter: blur(5px);
+}
+.img-max-height{
+    max-height: 800px;
+    max-width: 850px;
+}
+
+
+
+.bg-grey{
+    background-color: #f5f9fd !important;
+}
+.form-input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    background: none !important;
+}
+.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: none;
+}
+.icon-width{
+    width: 24px;
+}
+
+.btn-google {
+    background-color: #ffffff;
+    color: #5f6368;
+    border-color: #dcdcdc;
+    transition: 0.2s;
+}
+
+.btn-google:hover {
+    background-color: #f5f5f5 !important;
+    color: #5f6368;
+    border-color: #dcdcdc;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+    filter: invert(1);
+}
+
+
+    .min-height-login{
+        min-height: 900px !important;
+    }
+
+
+.overflow-x{
+    overflow-x: hidden; /* Oculta el desplazamiento horizontal */
+}
+.body-min-height{
+    height: 1000px !important;
+}
+
+.text-animated{
+    transition: all 0.3s;
+}
+.text-animated:hover {
+    margin-left: 20px;
+    color: white !important;
+    }
+
+/* Extra pequeño (xs): hasta 575px */
+@media (max-width: 575px) {
+    .its-free-png{
+        display: none;
+}
+}
+  
+  /* Pequeño (sm): desde 576px hasta 767px */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .its-free-png{
+        top: 20px;
+        left: 40px;
+}
+
+}
+  
+  /* Mediano (md): desde 768px hasta 991px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .its-free-png{
+        top: 20px;
+        left: 120px;
+}
+
+}
+  
+  /* Grande (lg): desde 992px hasta 1199px */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .its-free-png{
+            top: 20px;
+            left: 10px;
+    }
+}
+  
+  /* Extra grande (xl): desde 1200px hasta 1399px */
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .its-free-png{
+
+        top: 20px;
+        left: 10px;
+    }
+}
+  /* Extra grande (xl): desde 1200px hasta 1399px */
+  @media (min-width: 1300px) and (max-width: 1399px) {
+    .its-free-png{
+
+        top: 20px;
+        left: 50px;
+
+    }
+}
+  
+  /* Extra extra grande (xxl): desde 1400px en adelante */
+  @media (min-width: 1400px) and (max-width: 1799px){
+    .its-free-png{
+
+        top: 20px;
+        left: 120px;
+
+    }
+}
+      /* Extra extra grande (xxl): desde 1400px en adelante */
+  @media (min-width: 1800px) {
+    .its-free-png{
+
+        top: 0px;
+        left: 150px;
+    }
+}
+#logo{
+    width: 15% !important;
+    max-width: 440px;
+}
+.logo-login{
+    width: 100px !important;
+    height: 75px !important;
+}
+
+.img-icon-logo{
+    max-width: 70px !important;
+}

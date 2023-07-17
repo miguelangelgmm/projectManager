@@ -1,0 +1,259 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .error-container {
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: zoomIn 1s;
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: #dc3545;
+    margin-bottom: 30px;
+    animation: heartbeat 1s infinite;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .error-image {
+    width: 300px;
+    margin-bottom: 30px;
+    animation: bounceIn 1s;
+  }
+  
+  .btn {
+    font-size: 16px;
+    padding: 12px 30px;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+    color: #dc3545;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .zindex {
+    z-index: 999;
+  }
+  
+  .contenedor {
+    /* Color de fondo */
+    background-color: #e9ecef;
+    /* Posicion absoluta para que pueda actuar de fondo */
+    position: absolute;
+    /* Empieza en la esquina */
+    top: 0;
+    left: 0;
+    /* Dimensiones */
+    width: 100vw;
+    height: 100vh;
+    /* Cuando se desborde el contenido se recorta evitando que salga la barra de desplazamiento */
+    overflow: hidden;
+  }
+  
+  .cuadrados {
+    /* Les damos una posición absoluta */
+    position: absolute;
+    /* Empieza en 0,0 */
+    top: 0;
+    left: 0;
+    /* Saldran cuadrados por todo el ancho de la pantalla y llegaran al final */
+    width: 100%;
+    height: 100%;
+    /* Establecemos el indice del eje z como 1 para que sea visible */
+    z-index: 1;
+  }
+  
+  /* Estilos generales para los cuadrados */
+  li {
+    /* Posición, estilo de listas y display */
+    position: absolute;
+    list-style: none;
+    display: block;
+    /* Borde y dimensiones genéricas */
+    border-radius: 10%;
+    width: 40px;
+    height: 40px;
+    /* Color por defecto */
+    background-color: #ffffff;
+    /* Su posición inicial será inferior a 0 para hacer el efecto de aparecer */
+    bottom: -160px;
+    /* Generamos una animación que va a durar de forma genérica 25 segundos y se repetirá de forma infinita */
+    animation: animacionCuadrados linear infinite;
+    /* La velocidad de la animación será lineal-constante */
+    animation-timing-function: linear;
+    /* Creo una sombra para generar efecto 3D */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animación, va a pasar de 0 px en y y una opacidad de 0 hasta una opacidad de 1 y un desplazamiento de -1200 y le añadimos un efecto de rotación */
+  @keyframes animacionCuadrados {
+    0% {
+      transform: translateY(0) rotate(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-1200px) rotate(720deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0) rotate(1440deg);
+      opacity: 0;
+    }
+  }
+  
+  /* Efectos para los cuadrados de forma individual */
+  /* Modifica las posiciones, tamaños, duraciones y colores según tus preferencias */
+  li:nth-child(1) {
+    left: 10%;
+  }
+  li:nth-child(2) {
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    animation-duration: 17s;
+  }
+  li:nth-child(3) {
+    left: 25%;
+    animation-delay: 2s;
+  }
+  li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 22s;
+    background-color: #6385d1;
+  }
+  li:nth-child(5) {
+    left: 70%;
+  }
+  li:nth-child(6) {
+    animation-delay: 3s;
+    left: 90%;
+  }
+  li:nth-child(7) {
+    left: 60%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 25s;
+    animation-delay: 6s;
+    background-color: #acc4e4;
+  }
+  li:nth-child(8) {
+    left: 60%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 23s;
+    animation-delay: 8s;
+    background-color: #fff;
+  }
+  li:nth-child(9) {
+    left: 10%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 30s;
+    background-color: #acc4e4;
+  }
+  li:nth-child(10) {
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 22s;
+    background-color: #acc4e4;
+  }
+  li:nth-child(11) {
+    left: 85%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 22s;
+    background-color: #fff;
+  }
+  li:nth-child(12) {
+    left: 95%;
+    width: 60px;
+    height: 60px;
+    animation-duration: 20s;
+    background-color: #fff;
+    animation-delay: 6s;
+  }
+  li:nth-child(13) {
+    left: 75%;
+    width: 80px;
+    height: 80px;
+    animation-duration: 19s;
+    background-color: #acc4e4;
+  }
+  li:nth-child(14) {
+    left: 15%;
+    width: 80px;
+    height: 80px;
+    animation-duration: 20s;
+    background-color: #fff;
+  }
+  li:nth-child(15) {
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    animation-duration: 22s;
+    background-color: #6c9fd3;
+    animation-delay: 5s;
+  }
+  li:nth-child(16) {
+    left: 40%;
+    width: 120px;
+    height: 120px;
+    animation-duration: 22s;
+    background-color: #6c9fd3;
+    animation-delay: 5s;
+  }
+  
